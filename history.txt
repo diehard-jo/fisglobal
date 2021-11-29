@@ -1,0 +1,76 @@
+    1  git status
+    2  git
+    3  git init --help
+    4  mkdir git
+    5  ls
+    6  cd git/
+    7  ls
+    8  git clone https://github.com/diehard-jo/fisglobal.git
+    9  ls
+   10  cd fisglobal/
+   11  ls
+   12  touch test
+   13  ls
+   14  git status
+   15  git add .
+   16  git commit -m "first test file"
+   17  
+   18  git config --global --edit
+   19  git commit --amend --restart-author
+   20  git push
+   21  ls
+   22  vi test2.html
+   23  t status
+   24  git status
+   25  git add .
+   26  git status
+   27  git commit -m "second test file"
+   28  git push
+   29  git branch
+   30  git branch --list
+   31  git checkout main
+   32  git checkout -b branch1
+   33  git branch --list
+   34  ls
+   35  git status
+   36  vi test3.html
+   37  git status
+   38  git add .
+   39  git status
+   40  git commit -m "branch1 test file"
+   41  git push
+   42   git push --set-upstream origin branch1
+   43   git push --set-upstream origin branch1
+   44  git push
+   45  git branch --list
+   46  git checkout -b branch2
+   47  ls
+   48  vi test4.html
+   49  vi test4.html
+   50  git status
+   51  git add .
+   52  git status
+   53  git commit -m "branch2 test file"
+   54  git config --global user.name "diehard-jo"
+   55   git config --global user.email jothisp630@gmail.com
+   56  git commit -m "branch2 test file"
+   57  git push
+   58  git push --set-upstream origin branch2
+   59  git status
+   60  git checkout
+   61  git checkout main
+   62  git branch --list
+   63  git checkout -b branch3
+   64  ls
+   65  vi test5.html
+   66  git status
+   67  vi test6.html
+   68  git status
+   69  git add .
+   70  git status
+   71  git commit -m "third brach files"
+   72  git push
+   73  git push --set-upstream-origin branch3
+   74  git push --set-upstream origin branch3
+   75  git push
+   76  history >history.txt
